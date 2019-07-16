@@ -1,0 +1,92 @@
+body {
+  background-image: url("https://static.xoedge.com/xo-guest-services/assets/guest/themes/vintage_whale-gray/background_image-e36220ab0b142a09ff25fc9624c9ca57.gif");
+  background-repeat: repeat;
+  margin: 0px;
+}
+.navbar {
+  background-image: url("https://static.xoedge.com/xo-guest-services/assets/guest/themes/vintage_whale-gray/background_image-e36220ab0b142a09ff25fc9624c9ca57.gif");
+  background-repeat: repeat;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.title {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.wedding {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.details {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.faqs {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.tableparty {
+  display: inline-block;
+  text-align: left;
+}
+#dayoftimeline {
+  text-align: left;
+}
+#detail {
+  display: none;
+}
+#faq {
+  display: none;
+}
