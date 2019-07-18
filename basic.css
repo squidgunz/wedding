@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  overflow-x: hidden;
+}
+@font-face{
+  font-family: 'Azkia';
+  src: url('Azkia.otf') format('OpenType');
+}
+@font-face {
+  font-family: 'Snowflake';
+  src: url('snowflake.otf') format('OpenType')
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat_Light.otf') format('OpenType')
+}
+.container1{
+  position: relative;
+}
+.navbar {
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+.navbar a {
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+.navbar a::after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #FFFFFF;
+  transition: all ease-in-out 250ms;
+}
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.title {
+  font-family: "Azkia";
+  font-size: 40px;
+  color: #FFFFFF;
+  position: absolute;
+  line-height: 0.3;
+  top:50%;
+  left: 50%;
+  text-shadow: 2px 2px #7D7D7D;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#story h1 {
+  font-family: 'Snowflake';
+  font-size: 80px;
+}
+#story h2 {
+  font-family: 'Montserrat';
+}
+.wedding {
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.details {
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.faqs {
+  font-family: 'Montserrat';
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.tableparty {
+  display: inline-block;
+  text-align: left;
+}
+#dayoftimeline {
+  text-align: left;
+}
